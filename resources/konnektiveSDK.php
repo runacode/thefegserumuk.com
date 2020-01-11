@@ -514,12 +514,12 @@ document.getElementById('formfields').style.display = 'none';
         <link type='text/css' href='<?php echo $resourceDir; ?>css/kform.css' rel='stylesheet'/>
         <link type='text/css' href='<?php echo $resourceDir; ?>css/kcart.css' rel='stylesheet'/>
 
-        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kvalidator.js"></script>
+        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kvalidator.min.js"></script>
         <script>
 
         </script>
-        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/klander.js"></script>
-        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kcart.js"></script>
+        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/klander.min.js"></script>
+        <script type='text/javascript' src="<?php echo $resourceDir; ?>js/kcart.min.js"></script>
 
         <?php
         if ($requireSig) {
