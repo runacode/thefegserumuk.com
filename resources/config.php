@@ -3,7 +3,8 @@
 KformConfig::setConfig(array(
     "isWordpress" => false,
     "apiLoginId" => "os_api",
-   "authString"=>"c2f9d089f0e7ea7dde2402ffb3efebe2",
+    "apiPassword"=>'p@$$w0rd123123',
+  "authString"=>"c2f9d089f0e7ea7dde2402ffb3efebe2",
 	"autoUpdate_allowedIps"=>array("80.248.30.132"),
 	"campaignId"=>15,
 	"resourceDir"=>"resources/"));
@@ -436,11 +437,11 @@ KFormConfig::$campaignData = '{
     "webPages": {
         "catalogPage": {
             "disableBack": 0,
-            "url": "https:\/\/thefegserumuk.com\/"
+            "url": "https:\/\/www.thefegserumuk.com\/"
         },
         "checkoutPage": {
             "disableBack": 0,
-            "url": "https:\/\/thefegserumuk.com\/checkout.php",
+            "url": "https:\/\/www.thefegserumuk.com\/checkout.php",
             "autoImportLead": 1,
             "productId": null,
             "requireSig": 0,
@@ -450,14 +451,14 @@ KFormConfig::$campaignData = '{
         },
         "thankyouPage": {
             "disableBack": 0,
-            "url": "https:\/\/thefegserumuk.com\/thankyou.php",
+            "url": "https:\/\/www.thefegserumuk.com\/thankyou.php",
             "createAccountDialog": 0,
             "reorderUrl": null,
             "allowReorder": 0
         },
         "upsellPage1": {
             "disableBack": 1,
-            "url": "https:\/\/thefegserumuk.com\/upsell1.php",
+            "url": "https:\/\/www.thefegserumuk.com\/upsell1.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
             "productId": 62,
@@ -465,7 +466,7 @@ KFormConfig::$campaignData = '{
         },
         "upsellPage2": {
             "disableBack": 1,
-            "url": "https:\/\/thefegserumuk.com\/upsell2.php",
+            "url": "https:\/\/www.thefegserumuk.com\/upsell2.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
             "productId": 61,
@@ -473,7 +474,7 @@ KFormConfig::$campaignData = '{
         },
         "upsellPage3": {
             "disableBack": 1,
-            "url": "https:\/\/thefegserumuk.com\/upsell3.php",
+            "url": "https:\/\/www.thefegserumuk.com\/upsell3.php",
             "createAccountDialog": 0,
             "requirePayInfo": 0,
             "productId": 63,
@@ -494,7 +495,7 @@ KFormConfig::$campaignData = '{
             "productId": 59,
             "name": "Feg Serum - Eyelash Enhancer",
             "description": "*No description available",
-            "imagePath": "https:\/\/thefegserumuk.com\/resources\/images\/smain-small.jpeg",
+            "imagePath": "https:\/\/www.thefegserumuk.com\/resources\/images\/smain-small.jpeg",
             "imageId": 1,
             "price": "11.97",
             "shipPrice": "0.00",
@@ -504,7 +505,7 @@ KFormConfig::$campaignData = '{
             "productId": 60,
             "name": "Feg Serum - Eyelash Enhancer - Free",
             "description": "*No description available",
-            "imagePath": "https:\/\/thefegserumuk.com\/resources\/images\/smain-small.jpeg",
+            "imagePath": "https:\/\/www.thefegserumuk.com\/resources\/images\/smain-small.jpeg",
             "imageId": 1,
             "price": "0.00",
             "shipPrice": "0.00",
@@ -516,7 +517,7 @@ KFormConfig::$campaignData = '{
             "productId": 61,
             "name": "Feg Serum - Eyelash Enhancer - Free Gift",
             "description": "*No description available",
-            "imagePath": "https:\/\/thefegserumuk.com\/resources\/images\/upsell1.jpg",
+            "imagePath": "https:\/\/www.thefegserumuk.com\/resources\/images\/upsell1.jpg",
             "imageId": 1,
             "price": "4.95",
             "shipPrice": "0.00",
@@ -526,7 +527,7 @@ KFormConfig::$campaignData = '{
             "productId": 62,
             "name": "FEG - EyeBrown (2pcs - 2 months of treatment)",
             "description": "*No description available",
-            "imagePath": "https:\/\/thefegserumuk.com\/resources\/images\/upsell2.jpg",
+            "imagePath": "https:\/\/www.thefegserumuk.com\/resources\/images\/upsell2.jpg",
             "imageId": 2,
             "price": "9.95",
             "shipPrice": "0.00",
@@ -536,7 +537,7 @@ KFormConfig::$campaignData = '{
             "productId": 63,
             "name": "Silicone Make-Up Sponge",
             "description": "*No description available",
-            "imagePath": "https:\/\/thefegserumuk.com\/resources\/images\/upsell3.jpg",
+            "imagePath": "https:\/\/www.thefegserumuk.com\/resources\/images\/upsell3.jpg",
             "imageId": 3,
             "price": "4.95",
             "shipPrice": "0.00",
