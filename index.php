@@ -41,7 +41,7 @@ include_once(dirname(__FILE__) . '/locale/languages.php');
         window.product = JSON.parse('<?php echo json_encode($product); ?>');
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.js"></script>
+    <script src="/resources/js/cart.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="resources/css/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="resources/css/shopify.css">
@@ -189,7 +189,7 @@ include_once(dirname(__FILE__) . '/locale/languages.php');
 <script>
 
 </script>
-<script src="resources/js/main.js?1=2"></script>
+<script src="resources/js/main.min.js?1=2"></script>
 </body>
 </html>
 
