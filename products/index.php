@@ -41,13 +41,17 @@ switch ($response['action']) {
         print header_redirect($response['url']); //Uses <script>window.location='xxx'</script> when in hybrid mode (required behaviour)
         exit;
     case 'iframe':
-        print load_fullscreen_iframe($response['url']);
+        include_once('catalog.php');
         exit;
+
     case 'paste_html':
-        print paste_html($response['output_html']);
+
+        include_once('catalog.php');
         exit;
     /* Please be VERY CAREFUL if modifying this block: */
     case 'load_hybrid_page':
+        include_once('catalog.php');
+        exit;
         $ta->load_hybrid_page();
         break;
     /* ...it is needed for hybrid mode to function correctly */
