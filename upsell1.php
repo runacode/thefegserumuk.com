@@ -36,7 +36,7 @@ $orderTotal = $ksdk->getOrderTotal();
     <script>
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.js"></script>
+    <script src="/resources/js/cart.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="resources/css/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="resources/css/shopify.css">
