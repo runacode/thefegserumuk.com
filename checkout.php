@@ -51,7 +51,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
         window.product = JSON.parse('<?php echo json_encode($product); ?>');
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.js"></script>
+    <script src="/resources/js/cart.min.jsjs"></script>
     <style>body {
             margin: 8px !important;
         }</style>
@@ -278,7 +278,7 @@ $ksdk = new KonnektiveSDK($pageType, $deviceType);
 <?php
 
 $pageEvent = "InitiateCheckout";
-$qs = ["Event"=>$pageEvent,"Value"=>$Value];
+$qs = ["Event"=>$pageEvent];
 include_once('pixelcode/pixelhelper.php');
 
 
