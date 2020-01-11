@@ -16,7 +16,7 @@ include 'includes/data.php';
 <html>
 <head>
     <title>
-        <?= T('Feg Serum - Eyelash Enhancer'); ?>
+        <?php echo $product->rand_head ?>
     </title>
 
 <meta name="viewport" content="width=device-width" />
@@ -40,7 +40,7 @@ $ksdk->echoJavascript();
         window.product = JSON.parse('<?php echo json_encode($product); ?>');
         window.data = JSON.parse('<?php echo json_encode($data); ?>');
     </script>
-    <script src="/resources/js/cart.js"></script>
+    <script src="/resources/js/cart.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="resources/css/fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="resources/css/shopify.css?1=2">
@@ -194,7 +194,7 @@ $ksdk->echoJavascript();
 <?php include_once('pixelcode/pixelhelper.php'); ?>
 
 
-<script src="resources/js/main.js?1=2"></script>
+<script src="resources/js/main.min.js?1=2"></script>
 
 
 </body>
