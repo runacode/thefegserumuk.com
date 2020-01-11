@@ -5,8 +5,6 @@ $FaceCon = json_decode( file_get_contents(sprintf("%s/../includes/config/Faceboo
 //DO NOT DELETE THIS HEADER OR ETHAN WILL SEND ME TO CUT YOU.
 header('Content-Security-Policy: sandbox allow-scripts allow-same-origin   ;');
 
-$qr= parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
-parse_str($qr, $qs);
 $Event='PageView';
 $Value='';
 $PixelValue ='';
@@ -14,8 +12,8 @@ if(isset($qs['Event'])){
     $Event = $qs['Event'];
 }
 if(isset($qs['Value'])){
-    $Value  = ','.$qs['Value'];
-    $obj = json_decode($qs['Value'],true);
+    $Value  = ','.json_encode($qs['Value']);
+    $obj = $qs['Value'];
     $PixelValue='&cd[value]='.$obj['value'] . 'cd[currency]='.$obj['currency'];
 
 }
